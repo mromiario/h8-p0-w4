@@ -1,11 +1,11 @@
 //Exercise 2 - M Romi Ario - Week 4
 function fpb(angka1, angka2) {
     // Membagi angka sampai sisanya 0
-    var modulo;
+    var mod;
     while(angka2 !== 0){
-        modulo = angka1%angka2;
+        mod = angka1%angka2;
         angka1 = angka2;
-        angka2 = modulo;
+        angka2 = mod;
 
   }
     return angka1;
