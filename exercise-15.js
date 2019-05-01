@@ -1,3 +1,4 @@
+// M Romi Ario - Exercise 15 - Weeks 4
 function highestScore (students) {
     var classStudent= [];
     var finalClass = new Object();
